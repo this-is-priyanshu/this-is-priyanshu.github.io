@@ -31,6 +31,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
 
     x_val.push(x);
     y_val.push(y);
+    itr_val.push(0);
 
     if (method === 'euler') 
     {
